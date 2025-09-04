@@ -1,0 +1,24 @@
+{
+  "name": "multiplatform-code-generator",
+  "version": "1.0.0",
+  "description": "MCP tool for generating cross-platform code from C++ interfaces",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": ["mcp", "cross-platform", "code-generation", "cpp", "android", "ios", "harmony"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

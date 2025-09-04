@@ -1,0 +1,12 @@
+# Core dependencies
+# Note: MCP SDK for Python may not be available yet, using alternative approach
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.0.0
+mypy>=1.0.0
+flake8>=5.0.0
